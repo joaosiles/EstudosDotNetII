@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "2L1/C1IND+oSap7ys96xWA/I9+92H7Drq1mptmaNky1Gn7Ylhse74O0sz1fooyw+yHvSYpfaQL77GUSbESIFBw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\4905094410\\Documents\\Estudos\\dotnet\\ExemploExplorando\\ExemploExplorando.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nexus.viavarejo.com.br/repository/b2b-nuget/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.cnova.com/nuget/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
