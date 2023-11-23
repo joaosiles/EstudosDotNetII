@@ -34,7 +34,9 @@ namespace ExemploExplorando.Models
 
                 for(int count = 0; count < Alunos.Count; count++)
                 {
-                string texto = "N " + count + " - " + Alunos[count].NomeCompleto ;
+                    // string texto = "N " + count + " - " + Alunos[count].NomeCompleto ;
+                    int exibicao = count + 1;
+                    string texto = $"N {exibicao} - {Alunos[count].NomeCompleto}";
                     Console.WriteLine(texto);
                 }
             }
