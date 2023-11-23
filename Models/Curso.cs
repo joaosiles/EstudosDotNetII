@@ -31,6 +31,12 @@ namespace ExemploExplorando.Models
             foreach (Pessoa aluno in Alunos)
             {
                 Console.WriteLine($"Nome: {aluno.NomeCompleto}");
+
+                for(int count = 0; count < Alunos.Count; count++)
+                {
+                string texto = "N " + count + " - " + Alunos[count].NomeCompleto ;
+                    Console.WriteLine(texto);
+                }
             }
         }
     }
